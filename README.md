@@ -22,11 +22,11 @@ Normally, an engineer would have to `Ctrl+F` through a massive PDF, hoping they 
 
 **1. Engineering Chat Assistant**
 
-> ![Chat Interface](assets/chat_ui.png) 
+> ![Chat Interface](assets/chat_ui.PNG) 
 
 **2. Observability & Monitoring Dashboard**
 
-> ![Monitoring Dashboard](assets/monitor_ui.png)
+> ![Monitoring Dashboard](assets/monitor_ui.PNG)
 
 ---
 
