@@ -2,11 +2,11 @@
 
 An AI-powered search and chat assistant designed to instantly find and explain technical requirements from the **Hong Kong Civil Engineering and Development Department (CEDD) General Specification**.
 
-🎓 *Built with reference to principles and architectures taught in the [DataTalksClub LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).*
+* **Focused Domain Scope:** Implemented using **Section 15 (Steel Reinforcement)** as the pilot technical dataset. The ingestion and chunking architecture is modular, allowing additional specification sections to be indexed simply by placing their source documents into `data/`.
 
 ---
 
-## 📖 What Does This App Do? (For Non-Technical Users)
+## 📖 What Does This App Do?
 
 Imagine having to search through a massive legal and technical engineering specification to find out exactly what temperature steel reinforcement needs to be bent at, or what particulars need to be submitted for approval. 
 
@@ -33,6 +33,8 @@ Normally, an engineer would have to `Ctrl+F` through a massive PDF, hoping they 
 ## 👨‍💻 Technical Overview (For Developers)
 
 This project is a Retrieval-Augmented Generation (RAG) application. It acts as a bridge between the CEDD Specification and the AI, ensuring the AI only answers using the official text.
+
+🎓 *Built with reference to principles and architectures taught in the [DataTalksClub LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp).*
 
 ### 🌟 Key Features
 
